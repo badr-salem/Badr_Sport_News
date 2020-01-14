@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+<head runat="server">
+    <title>Badr_Sport</title>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+    .products .card {
+      min-height: 370px;
+    }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+
+    <a class="navbar-brand" href="#">BADR SPORT NEWS</a>
+    
+  
+  </div>
+  </nav>
+
+        <div class="container pt-3">
+    <div class="jumbotron text-center">
+      <h1>WELCOME IN BADR SPORT NEWS</h1>
+      <p>Everything new in the world of sports</p>
+      
+    </div>
+  </div>
+
+    <div class="products bg-dark">
+    
+       
+        <div class="container pt-3 pb-3">
+         
+          
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+           
+        </asp:ContentPlaceHolder>
+            </div>
+            </div>
+
+       
+      
+
+        </form>
+
+        <div class="container">
+    <footer class="text-muted pt-2">
+      <p>contact me : <a href = "mailto: badrsalem55@gmail.com">Badrsalem55@gmail.com</a></p>
+    </footer>
+  </div>
+
+    </form>
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

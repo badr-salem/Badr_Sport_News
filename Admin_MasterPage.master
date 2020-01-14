@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin_MasterPage.master.cs" Inherits="Admin_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+<head runat="server">
+    <title>Badr_Sport-Admin Panel</title>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+    .products .card {
+      min-height: 370px;
+    }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+          <a href="Admin_Settings.aspx"<h3 class="navbar-brand">BADR SPORT NEWS - Admin Panel</h3> </a>
+    
+  
+  </div>
+  </nav>
+
+        <div class="container pt-3">
+    <div class="jumbotron text-center">
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+        </asp:ContentPlaceHolder>
+    
+    </div>
+  </div>
+
+    
+
+        </form>
+
+        <div class="container">
+    <footer class="text-muted pt-2">
+              <p>contact me : <a href = "mailto: badrsalem55@gmail.com">Badrsalem55@gmail.com</a></p>
+
+    </footer>
+  </div>
+
+    </form>
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>

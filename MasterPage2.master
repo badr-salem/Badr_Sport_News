@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+<head runat="server">
+    <title>Badr_Sport</title>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+    .products .card {
+      min-height: 370px;
+    }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+          <a href="Index.aspx"><h3 class="navbar-brand">BADR SPORT NEWS</h3></a>
+          
+    
+  
+  </div>
+  </nav>
+
+        <div class="container pt-3">
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+        </asp:ContentPlaceHolder>
+    
+  </div>
+
+    
+
+        </form>
+
+        <div class="container">
+    <footer class="text-muted pt-2">
+      <p>contact me : <a href = "mailto: badrsalem55@gmail.com">Badrsalem55@gmail.com</a></p>
+
+    </footer>
+  </div>
+
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
